@@ -1,0 +1,14 @@
+﻿<Window x:Class="Dem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dem"
+        mc:Ignorable="d"
+        Title="Главное окно" Height="437.338" Width="462.013">
+    <Grid>
+        <Button x:Name="button" Content="Клиенты" VerticalAlignment="Top" Margin="157,60,152,0" Height="47" Click="button_Client_Click"/>
+        <Button x:Name="button_Copy" Content="Риэлтор" Margin="157,157,152,202" IsDefault="True" Click="button_Realtor_Click"/>
+        <Button x:Name="button_Copy1" Content="Объекты недвижимости" Margin="157,0,152,116" IsDefault="True" Click="button_RealProperties_Click" Height="47" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
